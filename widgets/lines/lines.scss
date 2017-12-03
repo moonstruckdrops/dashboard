@@ -1,0 +1,35 @@
+.widget-lines {
+    background-color: #008fde;
+
+    .header {
+        display: flex;
+    }
+    .header__title {
+        color: rgba(255, 255, 255, 0.7);
+        margin-bottom: 0px;
+        background: url('http://icooon-mono.com/i/icon_11947/icon_119470_256.png') no-repeat;
+        background-size: 45px 100%;
+        padding-left: 45px;
+        margin: 0 auto;
+    }
+    .content-area__container {
+        width: 90%;
+    }
+    .content-area__container__information {
+        display: grid;
+        margin: 5%;
+    }
+   .content-area__container__information--name {
+       font-weight: bold;
+       font-size: 24px;
+       margin-bottom: 10%;
+   }
+   .content-area__container__information--status {
+       font-weight: bold;
+       font-size: 18px;
+    }
+   .content-area__container__information--detail {
+       font-size: 12px;
+       margin-bottom: 10%;
+   }
+}
